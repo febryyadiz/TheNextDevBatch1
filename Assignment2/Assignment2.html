@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <script src="./js/submitButton.js"></script>
+</head>
+
+<body>
+    <nav class="header">
+        <ul class="list-menu">
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#">PRODUCT</a>
+            </li>
+            <li>
+                <a href="#">GALLERY</a>
+            </li>
+            <li>
+                <a href="#">BLOG</a>
+            </li>
+            <li>
+                <a href="#">INVENTORY</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="content">
+        <section class="profile">
+            <div class="avatar">
+                <div class="image-profile">
+                    <img src="./images/photo.png" alt="photo" class="photo">
+                </div>
+                <div class="info-profile">
+                    <div class="profile-name">
+                        <span id="text-name" style="font-size:larger;font-weight:bold;text-decoration: underline;">Febry Yadi Zainal</span>
+                        <span id="text-role" style="font-family:Verdana, Geneva, Tahoma, sans-serif;font-size:medium;">Programmer</span>
+                    </div>
+                    <div class="button">
+                        <button class="button button1">Edit</button>
+                        <button class="button button2">Resume</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="data-profile">
+                <table>
+                    <tr>
+                        <td style="font-weight: 700; width: 10vw;">Availability :</td>
+                        <td id="text-availability">Anytime</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 700; width: 10vw;">Age :</td>
+                        <td id="text-age">37</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 700; width: 10vw;">Address :</td>
+                        <td id="text-address">Bukittinggi, Indonesia</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 700; width: 10vw;">Experiences :</td>
+                        <td id="text-experiences">2</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: 700; width: 10vw;">Email :</td>
+                        <td id="text-email">febryyadi.z@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="form">
+            <form action="#" class="formField">
+                <label for="name" style="font-weight:bold">Name</label>
+                <input id="input-name" type="text" name="name">
+                <label for="role" style="font-weight:bold">Role</label>
+                <input id="input-role" type="text" name="role">
+                <label for="availability" style="font-weight:bold">Availability</label>
+                <input id="input-availability" type="text" name="availability">
+                <label for="age" style="font-weight:bold">Age</label>
+                <input id="input-age" type="text" name="age">
+                <label for="address" style="font-weight:bold">Address</label>
+                <input id="input-address" type="text" name="address">
+                <label for="experiences" style="font-weight:bold">Years Experiences</label>
+                <input id="input-experiences" type="text" name="experiences">
+                <label for="email" style="font-weight:bold">Email</label>
+                <input id="input-email" type="text" name="email">
+                <button type="button" class="button-submit" onclick="onSubmit()">Sumbit</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

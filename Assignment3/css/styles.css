@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #6e7685;
+    position: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(25, 38, 44);
+    color: white;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.40);
+}
+
+.container {
+    padding: 5%;
+    background-color: #e9ecf1;
+    position: center;
+}
